@@ -122,11 +122,6 @@ public class PluginInitializationService {
         else {
             Chat.console(Phrase.build(Phrase.USING_SQLITE));
         }
-
-        Chat.console("--------------------");
-        Chat.console(Phrase.build(Phrase.ENJOY_COREPROTECT, pluginDescription.getName()));
-        Chat.console(Phrase.build(Phrase.LINK_DISCORD, "www.coreprotect.net/discord/"));
-        Chat.console("--------------------");
     }
 
     /**
